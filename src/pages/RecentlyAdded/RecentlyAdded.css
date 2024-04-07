@@ -1,0 +1,20 @@
+.recently-added {
+  margin-inline: 3vw;
+  margin-bottom: 9rem;
+}
+.recently-added article {
+  margin-top: 1.25rem;
+}
+.recently-added article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.875rem;
+}
+
+@media (min-width: 320px) and (max-width: 650px) {
+  .allGames-title h1 {
+    padding-left: 2vw;
+  }
+}

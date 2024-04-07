@@ -1,0 +1,16 @@
+.top-games-browser {
+  margin-top: 6rem;
+}
+
+.top-games-browser-grid {
+  margin-bottom: 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+  grid-gap: 1.5rem;
+}
+.top-games-browser .top-games-browser-grid .card-content {
+  gap: 1.25rem;
+}
+.top-games-browser h2 {
+  margin-bottom: 3rem;
+}

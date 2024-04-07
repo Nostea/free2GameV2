@@ -1,0 +1,22 @@
+.top-card-content h1 {
+  padding-top: 75%;
+}
+
+.top-card-rank-wrapper {
+  padding-left: 90%;
+}
+
+.top-card-tags-flex span {
+  cursor: pointer;
+}
+.top-card-content .top-card-rank-wrapper .op-card-tags-flex {
+  padding-top: 20px;
+}
+
+.top-card-content .solid-button {
+  margin-bottom: 1.875rem;
+}
+
+.platform-tags {
+  background-color: var(--card-bg-blue);
+}

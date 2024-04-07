@@ -1,0 +1,40 @@
+.card-vertical {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  overflow: hidden;
+
+  background-color: var(--card-bg-blue);
+}
+
+.card-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-vertical img {
+  border-radius: 1.5rem;
+}
+
+.tags-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 0.125rem var(--cardBorder) solid;
+  padding-top: 1.5rem;
+}
+
+.tags-flex a {
+  font-size: 1rem;
+  font-family: Oswald, Arial;
+  border: 1px solid var(--accent-color-magenta);
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.9375rem;
+  text-transform: capitalize;
+  margin-right: 0.4rem;
+}

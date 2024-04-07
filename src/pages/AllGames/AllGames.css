@@ -1,0 +1,75 @@
+.all-games {
+  padding-top: 6.25rem;
+  padding-inline: 3vw;
+  margin-bottom: 9rem;
+}
+
+.allgames-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 1.875rem;
+}
+
+/* : search suggestions */
+
+.suggestion {
+  position: fixed;
+  right: 95px;
+  top: 55px;
+  overflow-y: scroll;
+  height: 18.75rem;
+  width: 17.3125rem;
+  padding: 0.3125rem;
+  background-color: var(--card-bg-blue);
+  border-radius: 12px;
+}
+
+.suggestion-items {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.75rem 0.3125rem;
+  width: 15.625rem;
+  padding: 0.3125rem;
+  background-color: var(--darkBlue);
+  border-radius: 12px;
+}
+.suggestion-items:hover {
+  background-color: var(--accent-color-magenta);
+}
+
+.suggestion-items img {
+  /* max-width: 3.125rem; */
+
+  width: 60px;
+}
+
+.more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 1.25rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .allgames-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .allgames-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 650px) {
+  .allgames-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.all-games .allgames-cards .card-content {
+  gap: 1.25rem;
+}

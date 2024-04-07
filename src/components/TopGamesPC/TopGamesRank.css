@@ -1,0 +1,11 @@
+.rank-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-black);
+  text-align: center;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border-radius: 3rem;
+  border: 1px solid var(--accent-color-magenta);
+}

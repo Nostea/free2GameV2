@@ -1,0 +1,15 @@
+.app {
+  margin-left: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+@media (min-width: 320px) and (max-width: 650px) {
+  .app {
+    margin: 0;
+  }
+}

@@ -1,0 +1,31 @@
+.home {
+  padding-top: 100px;
+}
+.home-wrapper {
+  padding-inline: 3vw;
+  margin-bottom: 9rem;
+}
+
+.home_title {
+  min-height: 36.4375rem;
+  background-image: url(/img/League-of-Legends-Guide-fuer-Anfaenger\ 1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 6rem;
+  margin-left: -29px;
+}
+.home_title h1 {
+  width: 20ch;
+  padding-top: 20.625rem;
+  padding-left: 5rem;
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 650px) {
+  .home_title h1 {
+    padding-inline: 3vw;
+    width: 13ch;
+    margin-left: 1.875rem;
+  }
+}

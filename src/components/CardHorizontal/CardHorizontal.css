@@ -1,0 +1,53 @@
+.card-horizontal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--card-bg-blue);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  height: 24vh;
+  position: relative;
+  gap: 50px;
+}
+
+.card-horizontal-rank-wrapper {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+
+.card-horizontal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8125rem;
+}
+
+.card-horizontal img {
+  border-radius: 1.5rem;
+  height: 100%;
+  max-width: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-horizontal-tags-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-horizontal-tags-flex a {
+  font-size: 1rem;
+  font-family: Oswald, Arial;
+  border: 1px solid var(--accent-color-magenta);
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.9375rem;
+  text-transform: capitalize;
+  margin-right: 0.4rem;
+}
+
+@media (min-width: 320px) and (max-width: 650px) {
+  .card-horizontal {
+    gap: 12px;
+  }
+}

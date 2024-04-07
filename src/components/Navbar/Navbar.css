@@ -1,0 +1,121 @@
+.navbar {
+  background-color: var(--bg-black);
+  height: 100vh;
+  border-right: 0.125rem solid var(--font-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 4;
+}
+
+.navbar svg {
+  cursor: pointer;
+}
+
+/*:Buttons Burger and X */
+.burger {
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+.exit {
+  position: absolute;
+  top: 0px;
+  right: -12.5rem;
+}
+
+/* :Home Games Recently Icons */
+
+nav {
+  padding: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.25rem;
+}
+
+.active svg {
+  cursor: pointer;
+  background-color: var(--accent-color-magenta);
+  border-radius: 15px;
+}
+
+.active p {
+  background-color: var(--accent-color-magenta);
+  border-radius: 15px;
+}
+
+.navleiste {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+/* :Hide and Show when clicked */
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  width: 16.25rem;
+}
+
+.mobile-nav {
+  position: relative;
+  display: none;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background-color: var(--bg-black);
+  width: 100vw;
+  border-right: 2px solid white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 1.5rem;
+  padding-top: 50px;
+  z-index: 5;
+}
+
+.mobile-menu p {
+  width: 300px;
+}
+
+.mobileHide {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  transition: 1s;
+}
+
+.mobileShow {
+  position: fixed;
+  top: 70px;
+  left: -101vw;
+  transition: 1s;
+}
+
+@media (min-width: 320px) and (max-width: 650px) {
+  .navbar {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .burger {
+    position: fixed;
+  }
+}

@@ -1,0 +1,22 @@
+.allGames-title {
+  min-height: 30.6875rem;
+  background-image: url(/img/League-of-Legends-Guide-fuer-Anfaenger\ 1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 6rem;
+  border-radius: 24px;
+  color: white;
+}
+
+.allGames-title h1 {
+  width: 20ch;
+  padding-top: 22.5rem;
+  padding-left: 5rem;
+}
+
+@media (min-width: 320px) and (max-width: 650px) {
+  .allGames-title h1 {
+    width: 13ch;
+  }
+}

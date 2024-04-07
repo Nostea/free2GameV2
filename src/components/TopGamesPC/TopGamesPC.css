@@ -1,0 +1,41 @@
+.pc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top-component-pc-flex {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.top-card {
+  background-color: var(--card-bg-blue);
+  width: 40%;
+  border-radius: 1.5rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-games-pc-flex-vertCards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .top-component-pc-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-card {
+    background-color: var(--card-bg-blue);
+    width: 100%;
+    border-radius: 1.5rem;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
